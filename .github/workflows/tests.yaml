@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         # À lancer en Python 3.8 et 3.9
-        python-version: [3.8, 4.1]
+        python-version: [3.8, 3.9, 3.11]
 
     steps:
       - name: Set Up Python ${{ matrix.python-version }}
